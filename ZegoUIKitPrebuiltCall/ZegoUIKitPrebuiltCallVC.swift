@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import ZegoUIKit
+
 
 @objc public protocol ZegoUIKitPrebuiltCallVCDelegate: AnyObject {
     @objc optional func getForegroundView(_ userInfo: ZegoUIKitUser?) -> ZegoBaseAudioVideoForegroundView?

@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import ZegoUIKit
+
 
 protocol ZegoConferenceMemberListDelegate: AnyObject {
     func getForegroundView(_ userInfo: ZegoUIKitUser?) -> UIView?
