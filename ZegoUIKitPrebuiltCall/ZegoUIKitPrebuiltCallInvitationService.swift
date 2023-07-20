@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import ZegoUIKit
+import ZegoUIKitSDK
 import ZegoPluginAdapter
 
 @objc public protocol ZegoUIKitPrebuiltCallInvitationServiceDelegate: AnyObject {
@@ -50,7 +50,7 @@ public class ZegoUIKitPrebuiltCallInvitationService: NSObject {
     var callID: String?
     
     public override init() {
-        ZegoUIKit.shared.addEventHandler(self.help)
+//        ZegoUIKit.shared.addEventHandler(self.help)
         super.init()
         NotificationCenter.default.addObserver(self, selector: #selector(applicationDidBecomeActive), name: UIApplication.didBecomeActiveNotification, object: nil)
     }

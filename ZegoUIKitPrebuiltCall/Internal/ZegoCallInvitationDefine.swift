@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import ZegoUIKit
+import ZegoUIKitSDK
 
 enum ZegoCallInvitationState: Int {
     case error
