@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import ZegoUIKitSDK
 
 protocol ZegoTopMenuBarDelegate: AnyObject {
     func onLeaveVideoConference(_ isLeave: Bool)

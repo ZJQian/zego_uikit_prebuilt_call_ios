@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import ZegoUIKitSDK
 
 public class ZegoUIKitPrebuiltCallConfig: NSObject {
     public var audioVideoViewConfig: ZegoPrebuiltAudioVideoViewConfig = ZegoPrebuiltAudioVideoViewConfig()

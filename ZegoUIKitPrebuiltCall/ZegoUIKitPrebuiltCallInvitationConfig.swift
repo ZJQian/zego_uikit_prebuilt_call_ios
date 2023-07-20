@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import ZegoUIKitSDK
 
 @objcMembers
 public class ZegoUIKitPrebuiltCallInvitationConfig: NSObject {

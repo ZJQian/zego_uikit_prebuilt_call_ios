@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import ZegoUIKitSDK
 
 protocol ZegoCallLightBottomMenuBarDelegate: AnyObject {
     func onMenuBarMoreButtonClick(_ buttonList: [UIView])
